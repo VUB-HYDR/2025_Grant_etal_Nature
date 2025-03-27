@@ -1,6 +1,6 @@
 # 2025_Grant_etal_Nature
 
-Python code for lifetime exposure analysis with ISIMIP simulations, translated from the MATLAB code of [Thiery et al. (2021)](https://github.com/VUB-HYDR/2021_Thiery_etal_Science) and extended toward assessing gridscale, unprecedented exposure.
+Python code for lifetime exposure analysis with ISIMIP simulations for "Global emergence of unprecedented lifetime exposure to climate extremes". This was originally translated from the MATLAB code of [Thiery et al. (2021)](https://github.com/VUB-HYDR/2021_Thiery_etal_Science) and extended toward assessing gridscale, unprecedented exposure.
 
 
 ## Environment
