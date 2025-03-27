@@ -12,7 +12,7 @@ conda env create -f exposure_env.yml
 ```
 
 ## Sample data
-Sample data for our analysis for heatwaves is available [here](10.5281/zenodo.15097896). You need to copy/unzip the "data" folder and its contents to the same directory as the code for the repo to work.
+Sample data for our analysis for heatwaves is available [here](https://zenodo.org/records/15097896). You need to copy/unzip the "data" folder and its contents to the same directory as the code for the repo to work.
 
 ## Running
 Once your python environment is set up, running this analysis for heatwaves should take 3-6 hours. Simply choose the "heatwavedarea" flag and set all "flags" run options except for "lifetime_exposure_cohort", "lifetime_exposure_pic", "emergence" and "birthyear_emergence" to full compute (1). This will produce a number of python pickle files for intermediate computations and final results. Final results are mostly present as xarray datasets/dataarrays. Note that some plotting functions will not work, as they require outputs of analyses for other extreme event categories for which sample data is not provided.
